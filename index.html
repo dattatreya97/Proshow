@@ -25,18 +25,7 @@
 	</nav>-->
 	<nav class="black">
 	    <div class="nav-wrapper">
-	      <a href="#!" class="brand-logo logo-font">Revels'17</a>
-	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-	      <ul class="right hide-on-med-and-down">
-	        <li><a href="https://www.mitrevels.in"><i class="material-icons">home</i></a></li>
-				<li><a href="#"><i class="material-icons">android</i></a></li>
-				<li><a href="#LoginModal">Register</a></li>
-	      </ul>
-	      <ul class="side-nav" id="mobile-demo">
-	        <li><a href="https://www.revels.in"><i class="material-icons">home</i></a></li>
-				<li><a href="#"><i class="material-icons">android</i></a></li>
-				<li><a href="#LoginModal">Register</a></li>
-	      </ul>
+	      <a href="#!" class="brand-logo logo-font">Revels'17</a>	    
 	    </div>
   	</nav>
 
@@ -48,27 +37,31 @@
 		<div class="row">
 			<form class="col s12" action="#" method="POST">
 				<div class="row">
-					<div class="input-field col s6">
+					<div class="input-field col s12 m6">
+						<i class="material-icons prefix">account_circle</i>
 						<input id="name" type="text" name="name" class="validate" required>
 						<label for="name">Name</label>
 					</div>
-					<div class="input-field col s6">
+					<div class="input-field col s12 m6">
 						<input id="RegNo" type="tel" name="RegNo" class="validate" required>
 						<label for="RegNo">Registration Number</label>
 					</div>
 				</div>
 				<div class="row">
-					<div class="input-field col s6">
+					<div class="input-field col s12 m6">
+						<i class="material-icons prefix">phone</i>
 						<input id="phone" type="tel" name="phone" class="validate" required>
 						<label for="phone">Phone</label>
 					</div>	    
-					<div class="input-field col s6">
+					<div class="input-field col s12 m6">
+						<i class="material-icons prefix">email</i>
 						<input id="email" type="email" name="email" class="validate" required>
 						<label for="email">Email</label>
 					</div>
 				</div>
 				<div class="row">
-					<div class="input-field col s6">
+					<div class="input-field col s12 m6">
+						<i class="fa fa-graduation-cap prefix" aria-hidden="true"></i>
 						<input id="college" type="text" name="college" class="validate" required>
 						<label for="college">College</label>
 					</div>
@@ -83,8 +76,26 @@
 		</div>        
 	</div>
 
+
+	<!-- Video Modal -->
+	<div id="VideoModal" class="modal blue-text">
+		<div class="modal-content">
+			<h4>Revels'16</h4>			
+			<!--<div style="width:100%;height:100%;width: 820px; height: 461.25px; float: none; clear: both; margin: 2px auto;">
+				<embed src="http://www.youtube.com/v/GlIzuTQGgzs?version=3&amp;hl=en_US&amp;rel=0&amp;autohide=1&amp;autoplay=1" wmode="transparent" type="application/x-shockwave-flash" width="100%" height="100%" allowfullscreen="true" title="Adobe Flash Player">
+				</div>-->
+				<div class="videoWrapper">
+				<center>
+				<!--<object style="width:100%;height:100%;width: 610px; height: 461.25px; float: none; clear: both; margin: 2px auto;" data="http://www.youtube.com/embed/GlIzuTQGgzs">				
+</object>-->
+				<iframe width="640" height="352" src="https://www.youtube.com/embed/vaf13ZhmFb8?rel=0" frameborder="0" allowfullscreen></iframe>
+				</center>
+				</div>
+
+		</div>	
+	</div>
 	
-	
+
 	<!-- carousel -->
 
 	<div class="carousel carousel-slider center" data-indicators="true">
@@ -105,7 +116,7 @@
 
 				<div class="col s12 m4">
 					<div class="icon-block">
-						<h2 class="center brown-text"><i class="material-icons medium">play_circle_outline</i></h2>
+						<h2 class="center brown-text"><a href="#VideoModal" class="modal-trigger"><i class="material-icons medium">play_circle_outline</i></a></h2>					
 						<h5 class="center">Proshow?!</h5>
 
 						<p class="light">Thought Revels came to a close in the blink of an eye? Hang on.We have got the best weekend planned for you.The top artists from all over India come to this event to perform on this grand platform.</p>
@@ -115,9 +126,9 @@
 				<div class="col s12 m4">
 					<div class="icon-block">
 						<h2 class="center brown-text"><i class="material-icons medium">stars</i><i class="material-icons medium">stars</i><i class="material-icons medium">stars</i></h2>
-						<h5 class="center">Guest Artists</h5>
+						<h5 class="center"><a href="#LoginModal"><button class="btn teal large" >Tickets?<i class="material-icons">shopping_cart</i></button></a></h5>
 
-						<p class="light"><center>18th February</center></p>
+						<p class="light"><center></center></p>
 					</div>
 				</div>
 
@@ -129,8 +140,7 @@
 						<p class="light"><center>Venue:<br>									
 										 Date:<br>
 										 Time:<br>
-
-										 <a href="#LoginModal"><button class="btn teal">Tikets?<i class="material-icons">shopping_cart</i></button></center></a>
+										 
 						</p>
 					</div>
 				</div>
@@ -139,57 +149,14 @@
 		</div>
 	</div>
 
-	<div class="parallax-container valign-wrapper">
-		<div class="section no-pad-bot">
-			<div class="container">
-				<div class="row center">
-
-				</div>
-			</div>
-		</div>
-		<div class="parallax"><img src="images/parallax2.jpg" alt="Unsplashed background img 2"></div>
-	</div>
 	
 
-	<footer class="page-footer black lighten-1">
-		<div class="container">
-			<div class="row">
-				<div class="col l6 s12">
-					<h4 class="white-text">Revels'17</i></h4>				
-						<li><a class="white-text" href="#!">Link 1</a></li>					
 
-				</div>
-				<div class="col l3 s12">
-					<h5 class="white-text">Office</h5>
-					<address class="white-text">
-			                Conference Room<br>
-			                Behind Cafeteria,AB1<br>
-			                MIT,Manipal<br>
-			                <i class="fa fa-phone"></i>:<br>
-			                <i class="fa fa-fax"></i>: <br>
-			                <i class="fa fa-envelope"></i>:
-			                      <a href="#"></a>
-					</address>
-				</div>
-				<div class="col l3 s12">
-					<h5 class="white-text">Connect</h5>
-					<ul>
-						<a class="white-text" href="#!"><i class="fa fa-twitter small" aria-hidden="true"></i></a>
-						<a class="white-text left-pad" href="#!"><i class="fa fa-facebook small" aria-hidden="true"></i></a>
-						<a class="white-text left-pad" href="#!"><i class="fa fa-instagram small" aria-hidden="true"></i></a>					
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="footer-copyright">
-			<div class="container">
+	<div class="footer-copyright black">
+			<div class="container white-text">
 				Made by <a class="brown-text text-lighten-3" href="http://mitportals.in/"><b>System Admin</b></a>
 			</div>
 		</div>
-	</footer>
-
-
-
 
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
