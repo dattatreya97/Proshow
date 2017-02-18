@@ -21,3 +21,46 @@ height:800px !important;}
 .gen-head{
 	font-family: 'Algerian';
 }
+
+#VideoModal{
+	width: 50% !important ; max-height: 300% !important
+}
+
+.my-div{
+	width:100%;
+	height:100%;
+	width: 600px; 
+	height: 300.25px;
+	float: none; 
+	clear: both;
+	margin: 2px auto;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
