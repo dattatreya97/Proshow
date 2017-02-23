@@ -10,7 +10,7 @@ $(document).ready(function(){
       $('.carousel').carousel('next');
       setTimeout(autoplay, 5000);
     };
-    $('#IDModal').modal('open');    
+    //$('#IDModal').modal('open');    
      $('#admit').click(function(){
         $('#ticket').toggle("slow");
      });
