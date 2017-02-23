@@ -64,3 +64,14 @@ height:800px !important;}
 	width: 100%;
 	height: 100%;
 }
+
+.back-page{
+	background-color:black;
+}
+.imgContainer{
+    float:left;
+}
+
+.heart{
+	color: red;
+}
