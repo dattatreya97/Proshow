@@ -1,5 +1,4 @@
 
-
 $(document).ready(function(){
     $('#ticket').hide();
     $('.modal').modal();    
