@@ -8,6 +8,8 @@
     border-width: 5px;
 }
 
+.carousel .carousel-item {
+height:800px !important;}
 
 .left-pad{
 	padding-left: 30px;
